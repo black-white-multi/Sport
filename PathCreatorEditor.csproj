@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E3CF4F4C-C411-E86E-18C7-6931CBDE652C}</ProjectGuid>
+    <ProjectGuid>{920DE8A8-178F-ED79-3023-B8157964CE31}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>PathCreatorEditor</AssemblyName>
@@ -57,9 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\PathCreator\Core\Editor\Helper\ScreenSpacePolyLine.cs" />
-    <Compile Include="Assets\PathCreator\Core\Editor\Helper\MouseUtility.cs" />
-    <Compile Include="Assets\PathCreator\Core\Editor\Helper\PathHandle.cs" />
     <Compile Include="Assets\PathCreator\Core\Editor\PathEditor.cs" />
+    <Compile Include="Assets\PathCreator\Core\Editor\Helper\PathHandle.cs" />
+    <Compile Include="Assets\PathCreator\Core\Editor\Helper\MouseUtility.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\PathCreator\Core\Editor\PathCreatorEditor.asmdef" />
@@ -686,7 +686,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PathCreator.csproj">
-      <Project>{3295FA44-30E1-1DD1-F02B-4988966FFD5D}</Project>
+      <Project>{D0FEEC65-DB9E-4F35-C46E-0E198E5E8904}</Project>
       <Name>PathCreator</Name>
     </ProjectReference>
   </ItemGroup>
