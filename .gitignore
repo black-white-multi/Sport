@@ -10,7 +10,6 @@
 .localhistory/
 Dbg/
 Opt/
-
 */Temp/
 */TestResults/
 
@@ -31,6 +30,7 @@ _ReSharper.CSharp/
 /Log
 /Temp
 /Logs
+/Library/
 /Unity/CSharp60Support/compilation.log
 /.vs
 /Server/.vs/
